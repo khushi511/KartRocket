@@ -1,0 +1,13 @@
+@import './reset.scss';
+
+.main{
+	width: 100%;
+	font-family: 'Rubik', sans-serif;
+
+	img[src="../../public/img/map-marker.svg"]{
+		left: 48% !important;
+		top: 86% !important;
+		width: 60px !important;
+		height: 60px !important;
+	}
+}

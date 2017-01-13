@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-slick' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of /home/khushi/Downloads/collegedunia/package.json
+5 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/babel-core/package.json
+6 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/babel-loader/package.json
+7 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/babel-preset-es2015/package.json
+8 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/babel-preset-react/package.json
+9 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/babel-preset-stage-0/package.json
+10 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/core-js/package.json
+11 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/css-loader/package.json
+12 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/node-sass/package.json
+13 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/react/package.json
+14 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/react-dom/package.json
+15 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/react-router/package.json
+16 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/reset-css/package.json
+17 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/sass-loader/package.json
+18 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/style-loader/package.json
+19 verbose installManyTop reading scoped package data from /home/khushi/Downloads/collegedunia/node_modules/webpack/package.json
+20 info package.json reset-css@2.2.0 license should be a valid SPDX license expression
+21 verbose readDependencies loading dependencies from /home/khushi/Downloads/collegedunia/package.json
+22 silly cache add args [ 'react-slick', null ]
+23 verbose cache add spec react-slick
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'react-slick',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'react-slick',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: 'latest',
+24 silly cache add   type: 'tag' }
+25 silly addNamed react-slick@latest
+26 verbose addNamed "latest" is being treated as a dist-tag for react-slick
+27 info addNameTag [ 'react-slick', 'latest' ]
+28 silly mapToRegistry name react-slick
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'react-slick',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'react-slick',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/react-slick
+33 verbose addNameTag registry:https://registry.npmjs.org/react-slick not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/react-slick
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 10:28:50 AM
+37 verbose request id 8dd3a5ff9454b711
+38 http request GET https://registry.npmjs.org/react-slick
+39 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+40 info attempt registry request try #2 at 10:29:00 AM
+41 http request GET https://registry.npmjs.org/react-slick
+42 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+43 info attempt registry request try #3 at 10:30:00 AM
+44 http request GET https://registry.npmjs.org/react-slick
+45 verbose stack Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+45 verbose stack     at Object.exports._errnoException (util.js:870:11)
+45 verbose stack     at errnoException (dns.js:32:15)
+45 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+46 verbose cwd /home/khushi/Downloads/collegedunia
+47 error Linux 3.19.0-15-generic
+48 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "react-slick"
+49 error node v4.4.2
+50 error npm  v2.15.0
+51 error code EAI_AGAIN
+52 error errno EAI_AGAIN
+53 error syscall getaddrinfo
+54 error getaddrinfo EAI_AGAIN registry.npmjs.org:443
+55 error If you need help, you may report this error at:
+55 error     <https://github.com/npm/npm/issues>
+56 verbose exit [ 1, true ]

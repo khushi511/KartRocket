@@ -1,0 +1,22 @@
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.about{
+	width: 100%;
+	background-color: #efefef;
+	@extend .flex-center;
+	flex-direction: column;
+	overflow-x: hidden;
+
+	.heading{
+		color: #1f1a1a;
+		font-size: 30px;
+		opacity:0.8;
+		font-weight: 500;
+		font-family: sans-serif;
+		line-height: 2;
+		text-transform: capitalize;
+	}
+}

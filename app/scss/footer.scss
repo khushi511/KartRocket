@@ -1,0 +1,31 @@
+.footer{
+		padding: 20px ;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background-color: white;
+		box-sizing: border-box;
+		width: 100vw;
+
+		.icon{
+			padding: 0 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items:center;
+			@media(max-width: 530px){
+				padding: 0 10px;
+			}
+			a{
+				text-decoration: none;
+				img{
+					width: 100px;
+					height: 85px;
+					@media(max-width: 450px){
+						width: 70px;
+						height: 80px;
+					}
+				}
+			}
+		}
+	}
