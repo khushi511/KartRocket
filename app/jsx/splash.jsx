@@ -17,8 +17,7 @@ export class Splash extends React.Component{
 	      autoplaySpeed: 4000,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 	      swipeToSlide: true,
 	      touchMove: true,
-	      useCSS: true,
-	      centerMode: true,
+	      useCSS: true
 	    }
 		return(
 				<div className="splash">
