@@ -15,5 +15,3 @@ Kindly note that no other application should be running at port 8080.
 
 The UI has been designed using Reactjs, Saas. Its purely responsive.
 
-9bcd24a5b20a101f0c21a1c7d3dbc0be270e28d1---token github
-
